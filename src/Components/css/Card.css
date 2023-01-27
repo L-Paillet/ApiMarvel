@@ -1,0 +1,44 @@
+.cardContainer {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    justify-content: center;
+    width: 100%;
+}
+
+.cards {
+    width: 24%;
+    padding: 0;
+    list-style-type: none;
+    max-height: 100%;
+    display: flex;
+}
+
+.oneCard {
+    height: auto;
+    width: 100%;
+    padding: 10px;
+    overflow: hidden;
+    text-decoration: none;
+    background-color: #33373f;
+    box-shadow: 0 0 10px black;
+    border-radius: 10px;
+}
+
+.oneCard:hover {
+    transform: scale(1.05);
+}
+
+.imgCard {
+    width: 100%;
+    height: 45vh;
+}
+
+.secondHalf p,
+h3 {
+    color: white;
+}
+
+/* Tablet */
+@media screen and (min-width: 642px) and (max-width: 992px) {
+}
